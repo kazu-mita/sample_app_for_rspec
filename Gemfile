@@ -34,4 +34,7 @@ end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-
+group :test do
+  gem 'capybara'
+  gem 'webdrivers'
+end
